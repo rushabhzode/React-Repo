@@ -23,10 +23,8 @@ function MyApp() {
 const anotherElement = (
     <a href="https://google.com" target="_blank">visit google</a>
 )
-
-
 createRoot(document.getElementById('root')).render(
  
-  anotherElement
+  <App/>
 
 )
